@@ -1,13 +1,16 @@
 ---
-title: "lab_4"
-format: html
+title: "Lab 4"
+subtitle: 'ESS 330'
+author:
+  - name: Ally Lewis
+    email: "adlewis1@colostate.edu"
+format:
+  html:
+    self-contained: true
 ---
 
 #PART 1
 
-```{r}
-remotes::install_github("lter/lterdatasampler")
-```
 
 ```{r}
 library(tidyverse)
